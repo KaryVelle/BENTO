@@ -9,6 +9,7 @@ public class Drag_prueba : MonoBehaviour
     Vector3 offset;
     public string destinationTag = "DropArea";
     public GameObject orden;
+    public GameObject canvaWin, canvaLose;
  
     void OnMouseDown()
     {
@@ -32,22 +33,27 @@ public class Drag_prueba : MonoBehaviour
             {
                 transform.position = hitInfo.transform.position;
                 //Debug.Log("aghh watefok");
-
-                if (gameObject.tag == orden.tag)
-                {
-                    Debug.Log("yipee");
-                }
-                else
-                {
-                    Debug.Log("NOOOOOO");
-                }
+                Verificar();
             }
         }
         transform.GetComponent<Collider>().enabled = true;
         
         
     }
- 
+
+    void Verificar()
+    {
+        if (gameObject.tag == orden.tag)
+        {
+            //canvaWin.SetActive(true);
+            Debug.Log("yipee");
+        }
+        else
+        {
+            Debug.Log("NOOOOOO");
+            //canvaLose.SetActive(true);
+        }
+    }
     Vector3 MouseWorldPosition()
     {
         var mouseScreenPos = Input.mousePosition;
