@@ -45,13 +45,13 @@ public class Drag_prueba : MonoBehaviour
     {
         if (gameObject.tag == orden.tag)
         {
-            //canvaWin.SetActive(true);
+            canvaWin.SetActive(true);
             Debug.Log("yipee");
         }
         else
         {
             Debug.Log("NOOOOOO");
-            //canvaLose.SetActive(true);
+            canvaLose.SetActive(true);
         }
     }
     Vector3 MouseWorldPosition()
