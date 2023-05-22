@@ -46,11 +46,19 @@ public class IngredientList : MonoBehaviour
             fill = (1 - fill) + 0;  
             timer.fillAmount = fill;
         }
-        else if (actualTime > 10)
+        else if (actualTime >= 10)
         {
+            //StartCoroutine(Gone(Loose));
             Loose.SetActive(true);
             /*time = Time.time;
             actualTime = 0;*/
         }
+    }
+    
+    IEnumerator Gone(GameObject canva)
+    {
+        canva.SetActive(true);
+        yield return new WaitForSeconds(3);
+        canva.SetActive(false);
     }
 }

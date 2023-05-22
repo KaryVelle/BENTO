@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22d57f28-93f4-4356-8310-3564d9823dd9" name="Changes" comment="" />
+    <list default="true" id="22d57f28-93f4-4356-8310-3564d9823dd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BentoProyect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BentoProyect/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/ColorB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/ColorB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Drag_prueba.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Drag_prueba.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IngredientList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IngredientList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +89,9 @@
       <workItem from="1677547629169" duration="827000" />
       <workItem from="1677548998335" duration="6860000" />
       <workItem from="1677597113796" duration="18000" />
+      <workItem from="1679492021076" duration="2747000" />
+      <workItem from="1680009917930" duration="3212000" />
+      <workItem from="1680013624192" duration="60000" />
     </task>
     <servers />
   </component>
